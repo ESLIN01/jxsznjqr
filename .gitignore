@@ -1,0 +1,27 @@
+# ---------- Keil MDK 编译产物 ----------
+MDK-ARM/2026myproject/
+MDK-ARM/build_log.txt
+MDK-ARM/*.lst
+
+# ---------- Keil 个人配置 ----------
+MDK-ARM/*.uvguix.*
+MDK-ARM/*.uvoptx
+
+# ---------- 编译产物通用后缀 ----------
+*.o
+*.axf
+*.hex
+*.bin
+*.elf
+*.map
+*.crf
+*.d
+*.dep
+*.lnp
+*.htm
+*.bak
+*.tmp
+
+# ---------- 不上传：本地资料与软件仿真回归（保留在工作区，只是不入库）----------
+比赛相关文件/
+tests/
